@@ -1,0 +1,19 @@
+platform :ios, '12.0'
+
+target 'CalorieTracker.ai' do
+  use_frameworks!
+pod 'paper-onboarding'
+
+  # Pods for CalorieTracker.ai
+
+  target 'CalorieTracker.aiTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CalorieTracker.aiUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
